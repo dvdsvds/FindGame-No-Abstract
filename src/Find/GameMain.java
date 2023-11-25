@@ -2,8 +2,8 @@ package Find;
 
 public class Main {
     public static void main(String[] args) {
-        gameHelp help = new gameHelp();
-        gameLogic logic = new gameLogic();
+        GameHelp help = new GameHelp();
+        GameLogic logic = new GameLogic();
 
         help.HelpOrCommand();
         System.out.println("\n");
