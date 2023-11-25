@@ -1,15 +1,15 @@
 package Find;
 
-public class GameMain {
+public class Main {
     public static void main(String[] args) {
-        GameHelp gameHelp = new GameHelp();
-        GameLogic gameLogic = new GameLogic();
+        Help help = new Help();
+        Logic logic = new Logic();
 
-        gameHelp.HelpOrCommand();
+        help.HelpOrCommand();
         System.out.println("\n");
 
         //게임 시작
-        gameLogic.gameStart();
+        logic.start();
             
         
     }
